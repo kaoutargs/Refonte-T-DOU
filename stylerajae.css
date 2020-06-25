@@ -1,0 +1,385 @@
+.navs{height:100px;font-family: 'Barlow', sans-serif;font-weight: 100;font-size: 19px;background-color: black!important;}
+a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
+.taille{width:29px;height: 29px;}
+#barre{display: none;width: 8rem;height: 2rem;background-color: black;color: white;border-top: none;border-left: none;border-right: none;}
+.stdetaile{text-decoration:none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.stdetaile:hover{text-decoration:none;border: none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.soulignement:hover{text-decoration:none;border: none;color: white;padding_bottom: 20rem;margin-top: 20rem;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
+.hau1{margin-top: 10rem;}
+.afpn{display: none;}
+.g{margin-top: 30px;}
+.g1{margin-top: 9rem;line-height:10px;}
+.d{margin-left: 100px;}
+.image1{position: relative;}
+.ab{position: absolute;left: 11rem;bottom:7rem;}
+.ab1{position: absolute;left: 7rem;bottom:5rem;}
+#panier{width: 30px;height: 30px;margin-left: 7rem;display: none;border: none;}
+.da{margin-left: 4.7rem;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 900;font-size: 48px;}
+.im{position: relative;top: 10rem;}
+.noire{margin-top: 90px;position: relative;width: 100%;background-color: black;height: 57vh;}
+.log{width: 80rem;margin-top: 87px;height: 60vh;opacity: 0.2;}
+.contexte{position: absolute;width: 80%;height:60vh;background-color: white;border:1px solid black;border-radius: 20px;margin-left: 7rem;margin-top: -11rem;box-shadow: 2px 0px 2px 0px  black;}
+.v{position: relative;width: 100%;height: 20vh;}
+.im22{position: absolute;margin-top: -78px;margin-left: -37px;height: 31rem;}
+.im2{position: absolute;margin-top: -82px;margin-left: -37px;height: 33.5rem;}
+.ma{margin-top: 1rem;padding-left: 5rem;font-family: 'Barlow', sans-serif;font-weight: 100;font-size:19px;color: black;}
+.maa{padding-left: 1rem;margin-top: 1rem;font-family: 'Barlow', sans-serif;font-weight: 100;font-size:19px;color: black;}
+.gr{font-family: 'Barlow', sans-serif;font-weight: 500;font-size:20px;}
+.ditt{display: inline-block;font-family: 'Barlow', sans-serif;font-weight: 400;  font-size:30px;  margin-top: 15px;margin-left: -9rem;position: absolute;}
+.dit{display: inline-block;font-family: 'Barlow', sans-serif;font-weight: 400;  font-size:30px;  margin-top: 10px;}
+.bt{  background-color: black;  width: 20px;  height: 20px;  background-image: url(image/in1.png);  display: inline-block;}
+.btt{background-color: black;width: 20px;height: 20px;background-image: url(image/in1.png);margin-top:-20px;}
+.de{display: inline-block;font-family: 'Barlow', sans-serif;font-weight:700;font-size:36px;margin-left: 5rem;margin-top: 20px;color: black;}
+.dee{font-family: 'Barlow', sans-serif;font-weight: 100;font-size:20px;margin-left: 8.5rem;color: black;}
+.prix{background-color:#FFFFFF;border:none ;text-align:center;font-size:61px;font-family: 'Barlow', sans-serif;font-weight: bold;color: #1a58a1;}
+#textpanier{color: white;margin-top: 9px;font:700 20px 'Barlow', sans-serif;}
+.brn{background-color: #1a58a1;padding:6px 0 6px 0;width: 16rem;height: 3.5rem;margin-top: 0px;margin-left: -8rem;border-radius:10px;border:none;}
+.t{position: relative;margin-top:-50px;}
+.ds{border-bottom: 1px solid black;}
+.ta{position: absolute;width:2.4rem;height: 1.9rem;}
+.taa{position: absolute;padding-top: 10px;width:2.4rem;height: 2.4rem;}
+.quantite{margin-left: -10px;}
+.trait{border-bottom: 1px solid black;width: 20px;}
+.cadre{width: 37rem;height: 20rem;margin-top: 5rem;background-color: black;margin-left: -15px;position: relative;}
+.vous{position: absolute;margin-top: 6rem;margin-left: 5rem;font-family: 'Barlow', sans-serif;color: white;font-weight: 900;font-size:45px;z-index: 1;}
+.vous::after{content: "";width: 10rem;height: 8px;position: absolute;border-bottom: 4px solid #1a58a1;margin-left: -22.5rem;margin-top: 4rem;}
+.cadregris{width: 52.3rem;height: 25rem;z-index: 2;background-color: #9fb9d8;position: relative;margin-left: 32rem;margin-top: 5rem;position: relative;}
+.pre1{position: relative;width: 10rem;height: 22rem;margin-top: 10rem;margin-left: 4rem;border-radius: 10px;border: 10px solid #ffffff;}
+.overlay {position: absolute;top: 10rem;left: 4rem;height: 22rem;width: 100%;opacity: 0;transition: .5s ease;background-image: url(image/backgroundop.jpg);}
+.des{position: relative;width: 10rem;height: 20rem;}
+.des:hover .overlay {opacity: 1;}
+.text {position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 30px;left: 12%;text-align: center;margin-top: 5%;}
+.textt {position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 70px;left: 27%;top: 22%;text-align: center;}
+.texttt {position: absolute;top: 64%;left: 18%;}
+.voir{color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.voir::after{content: "";width: 2.3rem;height: 8px;position: absolute;border-bottom: 2px solid #1a58a1;margin-left: -4.5rem;margin-top: 1.3rem;}
+.prixsticker::after{content: "";width: 8rem;height: 8px;position: absolute;border-bottom: 3px solid black;margin-left: -29.5rem;margin-top: 4.2rem;
+}
+/**************************************page panier***********************************************/
+.navbarmobile{display: none;}
+.hedermobile{display: none;}
+.imagefindetaille{display: none;}
+.textedetaillemobile{display: none;}
+.imagedemobile{display: none;}
+
+
+/** plus **/
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /**css de la navbar partie mobile**/
+#navbare{display: none;}
+.navbarmobile{display: block;}
+.logomobilep{  width: 40%;  height: 40%;}
+.navbar-toggler{position: absolute;margin-top: 0.8rem;margin-left: 42rem;font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 5.25rem!important;}
+#navbare{  display: none;}
+#navbarmobile{  display: block;}
+a{font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 4rem!important;text-align: center;color: white!important;  text-decoration: none;}
+.nav-item{background-color: rgba(0, 0, 0, 0.8);  color: white;}
+.taille{  margin-left: 2rem!important;  margin-top: 2rem!important;  width: 10%;  height: 10%;}
+.tlf{font-family: 'Barlow', sans-serif;margin-top: -6rem;font-weight:400!important;font-size: 4rem!important;margin-left: 5rem!important;}
+/** fin partie navbar**/
+
+/** headear**/
+.hau1{display: none;}
+.g{display: none;}
+.hedermobile{  display: block;}
+.noire{display:  none;}
+.cadregris{  display: none;}
+.imagefindetaille{display: block;}
+.stickersmobiledetaille{  color: black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 2rem;margin-top: 0rem;margin-left: 12rem;text-align: center;}
+#imagestikcerdetaillemobile{ margin-left: 15rem;}
+#imagecontroleapremobile{margin-top: 44rem;width: 30%;height: 10%;}
+#imagecontroleapremobileapr{margin-top: 43.7rem;width: 30%;height: 10%;margin-left: 6.2rem;}
+#tailledepamobile2{width: 30rem;margin-left:7rem;position: absolute;margin-top: -1rem;}
+#departement21mobile{color: black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 2rem;}
+#tailledepamobile{width: 30rem;margin-left:31rem;position: absolute;margin-top: -1rem;}
+#departement21mobile2{text-align: left;color: black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 2rem;}
+/**fin header**/
+
+/**partie contenu**/
+.hedermobile{margin-top: 20rem;position: relative;}
+#qdm{width: 30rem;margin-left: -3rem;}
+.quantitemobiledetaille{color: black;font-family: 'Barlow', sans-serif;font-weight:700;font-size: 5rem;}
+.numerodetaillemobile{margin-left: 19rem;color: black;font-family: 'Barlow', sans-serif;font-weight:500;margin-top: -2rem;}
+.t{margin-left: 20rem;margin-top: -4rem;}
+.ta{width:12rem;height: 7rem;}
+.taa{padding-top: 10px;width:12rem;height: 7rem;margin-top: 7rem;}
+.ndmobile::after{content: "";width: 20rem;margin-left: 12rem;height: 8px;position: absolute;font-family: 'Barlow', sans-serif;font-weight:900;border-bottom: 9px solid black;}
+.prixdetaillemobile{  display: inline;font-family: 'Barlow', sans-serif;font-weight:900!important;font-size:6rem;margin-left: 10rem;color: black;}
+.colprixmobile{  margin-top: 10rem;}
+.prdetaillemobile{font-family: 'Barlow', sans-serif;font-weight:900;font-size:5rem;margin-left: 1rem;border: none;}
+.brn{background-color: #1a58a1;padding:6px 6px 6px 6px;width: 60rem;height: 15rem;margin-top: 50px;margin-left: 0rem;border-radius:50px;border:none;}
+#pz{width: 9rem;height: 9rem;}
+.prixdetaillemobileee{position: absolute;display: inline-block;margin-left:0.5rem;margin-top: 6rem;font-family: 'Barlow', sans-serif;font-weight:900!important;font-size:6rem;color: black;}
+.prixdetaillemobilee{position: absolute;display: inline-block;margin-left:-6rem;margin-top: 12rem;font-family: 'Barlow', sans-serif;font-weight:900!important;font-size:6rem;color: black;}
+.hn{width: 20;margin-left: 10rem;}
+.textedetaillemobile{margin-top: 25rem;display: block;}
+.textmbdt{margin-left:12rem;margin-top: 6rem;font-family: 'Barlow', sans-serif;font-weight:200!important;font-size:5rem;color: black;}
+.veritablemobile{margin-left:2rem;}
+.cadre{position: absolute;width:76rem;height: 35rem;margin-top: 18rem;background-color: black;position: relative;}
+.vous{position: absolute;margin-top: 11rem;margin-left:10rem;font-family: 'Barlow', sans-serif;color: white;font-weight: 700;font-size:6rem;z-index: 1;}
+.vous::after{content: "";width: 20rem;height: 8px;position: absolute;border-bottom: 8px solid #1a58a1;margin-left: -36rem;margin-top: 10rem;}
+.vmmobile{width: 80rem;}
+.abmobile{text-align: center;margin-left:0rem;margin-top: 6rem;font-family: 'Barlow', sans-serif;font-weight:500!important;font-size:5rem;color: black;}
+.ab1mobile{text-align: center;margin-left:0rem;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight:500!important;font-size:5rem;color: black}
+.imagedemobile{display: block;}
+.imageimm1mobile{display: none;}
+.fmobile{margin-left: 15rem;width: 90%;height: 90%;}
+.fmobilee{margin-left: 30rem;width: 30%;height:30%;margin-top: 4rem;}
+}
+/** ****************************css partie navbare desctop *******************************************/
+#navbarmobile{display: none;}
+.navs{height:100px;font-family: 'Barlow', sans-serif;font-size: 19px;background-color: black!important;}
+.taille{width:29px;height: 29px;}
+#barre{display: none;width: 8rem;height: 2rem;background-color: black;color: white;border-top: none;border-left: none;border-right: none;}
+.d{margin-left: 100px;}
+.hau1{margin-top: 10rem;}
+a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
+/**********************titre principale**********************************/
+.titrerecapitulatif{text-align: center;font-family: 'Barlow', sans-serif;font-weight: 900;font-size: 40px;margin-top: 3rem;}
+.margtitre{margin-top: 5rem;}
+/** *************************menu de recapitilatif connexion de panier*******************************/
+.col1 {height: 5.9rem;position: absolute;background-color: black;}
+#menupanier1{display: none;}
+.position1{text-align: center;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 400;font-size: 20px;color: black;margin-left: -5rem;}
+.navbar2{width: 100%;height: 6rem; border:2px solid  black;padding: 0; margin-top: 6rem;position: relative;}
+.col11 {height: 5.9rem;position: absolute;background-color: black; width:1rem;margin-left: -5rem;}
+.flech{ position: absolute;font-family: 'Barlow', sans-serif;font-weight: 500;font-size: 4rem;margin-top: -3.7rem;margin-left: 4rem;color: white;}
+.connexionmenu{text-align: center;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 400;font-size: 20px;color: black;margin-left: 30px;}
+.flech1{position: absolute;font-family: 'Barlow', sans-serif;font-weight: 500;font-size: 4rem;margin-top: -3.7rem;margin-left: 2rem;color:black;}
+.recapitulatif{text-align: center;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 400;font-size: 20px;color: white;}
+.recapitulatifjs{text-align: center;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 400;font-size: 20px;color: white;}
+/** *************************** bouton avec js de commander ********************************/
+#btnconnexionpanier{display: none;}
+#btnadressepanier{display: none;}
+.textepaniere{color: #1a58a1;text-align: center;font-family: 'Barlow', sans-serif;font-weight:100;}
+.boutonpaniercommander{width: 20rem;margin-left: 5rem;margin-bottom: 10rem;background-color: white;border: 1px solid #1a58a1;border-radius: 10px;font-size: 35px;padding-bottom: 2px;}
+/** ********************************* overlay **************************************/
+.tpanierr{position: relative;margin-top:80px;margin-left: 2.5rem;}
+.tpanier{position: relative;margin-top:-50px;margin-left: 2.5rem;}
+.tpanierr::after{content: "";width: 5rem;height: 8px;position: absolute;border-bottom: 2px solid black;margin-left: -4rem;margin-top: 2rem;}
+.tpanier::after{content: "";width: 5rem;height: 8px;position: absolute;border-bottom: 2px solid black;margin-left: -4rem;margin-top: 2rem;}
+.stdetaile{text-decoration:none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.stdetaile:hover{text-decoration:none;border: none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center}
+.stdetailee{text-decoration:none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.stdetailee:hover{text-decoration:none;border: none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center}
+
+.pre1panier{position: relative;width: 15rem;height: 17rem;margin-top: 10rem;margin-left: 4rem;border-radius: 10px;border: 10px solid #ffffff;}
+.stdetaile span {visibility: hidden;}
+.traitpanierfn::after{content: "";width: 92%;height: 8px;position: absolute;border-bottom: 2px solid black;margin-left: 3.5rem;margin-top: 6rem;}
+.stdetaile img:hover + span {visibility: visible;}
+.dess{position: relative;width: 10rem;height: 20rem;}
+.textsticker{position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 30px;left: 12%;text-align: center;margin-left: 2.5rem;margin-top: 5%;}
+.texttp {position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 70px;left: 34%;top: 22%;text-align: center;}
+.textttp {position: absolute;top: 64%;left: 27%;}
+.overlayp {position: absolute;top: 10rem;left: 4rem;height: 17rem;width: 15rem;opacity: 0;transition: .5s ease;background-image: url(image/backgroundop.jpg);}
+.dess:hover .overlayp {opacity: 1;}
+.voir{color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
+.voir::after{content: "";width: 2.3rem;height: 8px;position: absolute;border-bottom: 2px solid #1a58a1;margin-left: -4.5rem;margin-top: 1.3rem;}
+/************************text devant image overlay********************************/
+.autocollant{color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 18px;margin-top: 15rem;}
+.reference{color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 16px;}
+.gr{font-family: 'Barlow', sans-serif;font-weight: 500;font-size:20px;}
+.autocollante{display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 18px;margin-top: 10rem;}
+.autocollanteresine{display: none;}
+.laquantite::after{content: "";width: 27rem;height: 8px;position: absolute;border-bottom: 2px solid black;margin-left: -2rem;margin-top: 13rem;}
+/***************************input incrementation quantité ****************************************/
+
+.bla{display: none;}
+.totalepanierfn{color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 35px;position: absolute;margin-top: 8rem;margin-left: 26rem;}
+.prixpanierfn{color:black;font-family: 'Barlow', sans-serif;font-weight:100;font-size: 35px;}
+.prixpanier{border:none ;text-align:center;font-size:25px;font-family: 'Barlow', sans-serif;font-weight: 200;color: #black;margin-top: 6rem;margin-left: 1rem;}
+.btnsupp{  width: 18px;  height: 18px;  margin-top: 6.8rem;  margin-left: -2rem;}
+.tapanier{position: absolute;width:1.8rem;height: 1.5rem;}
+.taapanier{position: absolute;padding-top: 2px;width:1.8rem;height:1.5rem;}
+/** **************************image paiment *********************************/
+.threed{margin-top: 9rem;margin-left: 7rem;display: inline;}
+.visa{margin-top:9rem;margin-left:1rem;}
+.paypal{  margin-top: 9rem;  margin-left: 1rem;}
+/********************************** les display none ***********************************************************/
+.btnsuppmobile{display: none;}
+.pre1mobile{display: none;}
+.autocollanteresinemobile{display: none;}
+.totalepromobile{display: none;}
+.visamobile{display: none;}
+/** ************************** css footer***************************************/
+/* FOOTER */
+footer {
+  position: relative;
+}
+/* Lettre d'informations */
+.letter {
+  width: 45rem;
+  height: 4rem;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding:7px;
+  padding-top: 16px;
+  margin-left: 25rem;
+  margin-top: 18rem;
+  z-index:3;
+}
+
+.formtext {
+display:inline;
+margin-left: 1.5rem;
+margin-top: 19px;
+padding-top: 5px;
+}
+
+#email {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 5px;
+  border-bottom: 1px solid white;
+}
+
+.mail{
+  margin-top : -40px;
+  margin-left: 14rem;
+}
+
+.telegram {
+  width: 35px;
+  height:35px;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: 30px;
+}
+
+.link a {
+  color: black;
+  text-decoration:none;
+  display: block;
+  line-height: 1.9rem;
+
+}
+
+.icon {
+  height: 15px;
+  width:15px;
+}
+.logo-fb {
+  display: none;
+}
+
+.block {
+  box-shadow: 2px 5px 10px black;
+  width: 85%;
+  height:50%;
+  background: white;
+  position: absolute;
+  margin-left: 7rem;
+  z-index: 2;
+}
+
+.copyright{
+  width: 100%;
+  height:11rem;
+  background-color: black;
+  z-index: 1;
+  margin-top: 20rem;
+  position: relative;
+}
+
+.copyright-text {
+  margin-top: 8rem;
+  margin-left: 40rem;
+  color:white;
+  position: absolute;
+}
+
+.add {
+  display:none;
+}
+
+.linkfoot {
+  display:none;
+}
+
+.infobout {
+  display: none;
+}
+
+.coordonnees {
+  display: block;
+}
+.margtop{
+  margin-top: -15rem;
+}
+/** fin de css footer***********************************/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /** cacher texte de mobile**/
+  .bla{display: block;}
+  .qte{display: none;}
+  .totaledesctop{display:none;}
+  .autocollanteversionmobile{display: none;}
+  .cacherpanier2{display: none;}
+    .pre1panier{display: none;}
+  .cacherelemntpanier{display: none;}
+  .autocollant{display: none;}
+  /** menu 2 de page panier **/
+  .col1{height: 17rem;}
+  .recapitulatif{font-weight: 400;font-size: 6rem;margin-top: 4rem!important;margin-left: -6rem!important;}
+  .titrerecapitulatife{text-align: center;font-family: 'Barlow', sans-serif;font-weight: 900;font-size: 4rem;margin-top: 3rem;}
+  .flech{position: absolute;font-family: 'Barlow', sans-serif;font-weight: 500;font-size: 9rem;margin-top: -4rem;margin-left: 8rem!important;color: white;}
+/** partie overlay **/
+.reference{position: relative;color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 50px;padding-top: 60rem;margin-left: 25rem;}
+.referencemobile{ position: absolute;color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 50px;margin-top: 64rem;padding-top: 2rem;  margin-left: 17rem;}
+.vermobile{position: relative;}
+  .pre1panier{position: relative;width: 15rem;height: 17rem;margin-top: 30rem;margin-left: 4rem;border-radius: 10px;border: 10px solid #ffffff;}
+/** partie texte devant image **/
+
+.gr{  font-family: 'Barlow', sans-serif;font-weight: 500;font-size:60px;}
+  .autocollanteresine{display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 4rem;margin-top: 0rem;text-align: center;}
+  .autocollanteresinemobile{position: absolute;display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 5rem;margin-top: 14rem;margin-left: 2rem;text-align: center;}
+/** input de quantité et totale**/
+.laquantite::after{border-bottom: none;}
+.traitpanierfn::after{border-bottom: none;}
+.boutonpaniercommander{width: 45rem;height: 12rem;margin-left: 6rem;margin-top: 32rem;margin-bottom: 10rem;background-color: white;border: 6px solid #1a58a1;border-radius: 30px;font-size: 40px;padding-bottom: 2px;}
+.textepaniere{color: #1a58a1;text-align: center;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 7rem;}
+.prixpaniermobile{position: absolute;display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 5rem;margin-top: 14rem;margin-left: 40rem;text-align: center;}
+.totalepromobile::after{content: "";width: 61rem;height: 8px;position: absolute;border-bottom: 8px solid black;margin-left: -32rem;margin-top: 10rem;}
+.totalesimobile{position: relative;margin-left: -6rem;margin-top: 8rem;}
+.totalepanierfnmobile{position: absolute;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 6rem;position: absolute;margin-top: 15rem;margin-left: 15rem;}
+.prixpanierfn{position: absolute;color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 7rem;position: absolute;margin-top: -1rem;margin-left: 5rem;}
+.btnmobile{position: relative;}
+.totalepromobile{position: absolute;display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 5rem;margin-top: 35rem;margin-left: 1rem;text-align: center;}
+.taapaniermobile{position: absolute;padding-top: 5rem;width:7em;height:11rem;margin-top: -5rem;}
+.tapaniermobile{position: absolute;  width:7rem;  height: 6rem;  margin-top: -7rem;}
+.laquantite{position: relative;}
+.numbermobile{margin-top: 8rem;margin-left: 30rem;position: relative;}
+.dss{position: absolute;text-align:center; font-size:9rem!important;font-weight: 500!important;margin-top: 1rem;margin-left: -40px;}
+.dsss{position: absolute;text-align:center; font-size:9rem!important;font-weight: 500!important;margin-top: -50rem;margin-left: 50px;}
+.tpaniermobile{position: relative;margin-top:8rem;margin-left: 20rem;}
+.tpaniermobile::after{content: "";width: 18rem;height: 8px;position: absolute;border-bottom: 8px solid black;margin-left: -20rem;margin-top: 5rem;}
+  /** btn supp mobile **/
+  .btnsuppmobile{  display: block;width: 6rem;height: 6rem;margin-top: 3rem;margin-left: 45rem;}
+/** image de sticker **/
+.pre1mobile{position: absolute;display: block;width: 35rem;height: 75rem;margin-top: 32rem;margin-left: 12rem;}
+/** image commander pou payer **/
+.imageachat{position: relative;}
+.visa{display: none;}
+.threed{position: absolute;margin-top: 55rem;margin-left:30rem;width: 15rem;}
+.visamobile{display: block;position: absolute;margin-top: 59rem;margin-left: 15rem;width: 15rem;}
+.paypal{position: absolute;margin-top: 70rem;margin-left: 17rem;width: 25rem;padding-bottom:10rem;}
+/** navbare mobile **/
+.logomobilep{width: 30%;height: 30%;}
+.navbar-toggler{margin-left: 30rem;font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 5.25rem!important;}
+#navbare{display: none;}
+#navbarmobile{display: block;}
+a {font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 4rem!important;text-align: center;color: white!important;text-decoration: none;}
+.nav-item{background-color: rgba(0, 0, 0, 0.8);color: white;}
+.taille{margin-left: 2rem!important;margin-top: 2rem!important;width: 10%;height: 10%;}
+.tlf{font-family: 'Barlow', sans-serif;margin-top: -6rem;font-weight:400!important;font-size: 4rem!important;margin-left: 5rem!important;}
+.bfpn{display: none;}
+.afpn{display: block;}
+}
+
+/* À PROPOS */
