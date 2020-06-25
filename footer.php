@@ -127,3 +127,6 @@
 <div class="copyright text-center"><p class="copyright-text">©2020 - Logiciel e-commerce par PrestaShop™</p></div>
 
 </footer>
+
+  </body>
+</html>

@@ -1,76 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="favicontdou">
-    <link rel="shortcut icon" type="image/x-icon" href="favicontdou.png">
-    <title>Liste</title>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;900&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styledimitri.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
 
-  </head>
-  <body>
+<?php include 'header.php' ?>
 
-<!-- Navbar -->
-
-    <nav class="essai navbar navbar-expand-lg  navbar-dark fixed-top " id="navbar">
-    <img id="logo" alt="logo" src="img/logo.png" class="px-4 ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="px-4 collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="px-2 nav-item active">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-            </li>
-            <li class=" px-2 nav-item">
-              <a class="nav-link  text-white " href="index.php">Nos collections</a>
-            </li>
-            <li class="px-2  nav-item">
-              <a class="nav-link text-white" href="index.php">Qui sommes-nous</a>
-            </li>
-            <li class="px-2  nav-item">
-              <a class="nav-link text-white" href="contact.php">Nous contacter</a>
-            </li>
-            <li class="px-1 nav-item">
-                <img class="taille" alt="logo" src="img/loupe.png" onclick="recherch()"id="search">
-
-    <form name="formbarre">
-    <input type="text" name="barre" id="barre" placeholder= "Rechercher..." />
-
-    </form>
-            </li>
-          </ul>
-         <ul class="px-4  navbar-nav mr-auto d">
-           <li class="px-4 nav-item">
-                        <a href="contact.php" class="stdetaile"> <img class="taille" alt="telephone" src="img/tel.png"></a>
-           </li>
-           <li class=" px-4 nav-item">
-             <a href="contact.php" class="stdetaile">  <img class="taille" alt="utilisateur"src="img/user.png"></a>
-           </li>
-           <li class="px-4 nav-item">
-             <a href="contact.php" class="stdetaile">  <img class="taille" alt="panier"src="img/panier.png"></a>
-           </li>
-         </ul>
-         <script language="javascript">
-
-         function recherch() {
-               document.getElementById("search").style.display = "none";
-               document.getElementById("barre").style.display = "block";
-               var span = document.getElementById('navbar') // L'élément du DOM
-         span.style.fontSize = '15px' // Font-size à 15px
-             }
-
-         </script>
-        </div>
-      </nav>
-
+<link rel="stylesheet" href="styledimitri.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
       <!-- Accordéon -->
 
     <div class="accordian">
@@ -257,11 +190,4 @@
 
 </div>
 
-
-
-
-
-  </body>
-
-
-</html>
+<?php include 'footer.php' ?>
