@@ -1,0 +1,336 @@
+body { background-color: #ffff;}
+
+/*Navbar */
+
+.essai {
+  height:100px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  font-size: 21px;
+  background-color: black!important;
+}
+
+.taille{
+  width:29px;
+  height: 29px;
+}
+
+#logo {
+  width:180px;
+  height: 35px;
+}
+
+#barre{
+  display: none;
+  width: 5rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.d{
+margin-left: 100px;
+}
+
+a:hover {
+  border-bottom: 2px solid #1a58a1;
+}
+
+}
+.stdetaile{
+    text-decoration:none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.stdetaile:hover{
+    text-decoration:none;
+    border: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Partie Slider
+
+    Accordéon */
+
+.accordian li p{display:none;}
+.accordian li:hover p{display:block;}
+
+.accordian {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+	margin: 100px auto;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+/*A small hack to prevent flickering on some browsers*/
+.accordian ul {
+	width: 100%;
+	/*This will give ample space to the last item to move
+	instead of falling down/flickering during hovers.*/
+}
+
+.accordian li {
+	position: relative;
+	display: block;
+	width: 25%;
+	float: left;
+  background: #fff;
+	border-left: 1px solid #777;
+
+	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+
+	/*Transitions to give animation effect*/
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/*If you hover on the images now you should be able to
+	see the basic accordian*/
+}
+
+/*Reduce with of un-hovered elements*/
+.accordian ul:hover li {width: 40px;}
+/*Lets apply hover effects now*/
+/*The LI hover style should override the UL hover style*/
+.accordian ul li:hover {width: 40%; background: url("slidesurvol.jpg");}
+
+
+.accordian li img {
+	display: block;
+}
+
+/* Passe de noir et blanc à couleur au survol */
+
+.accordian img {
+	filter: grayscale(1);
+}
+
+.accordian li:hover img{
+	filter: grayscale(0);
+}
+
+/* Texte dans l'accordéon */
+
+.stikéquipe {
+	font-family:'Barlow' sans-serif;
+	font-weight: 900;
+	overflow: hidden;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	text-align: center;
+	font-size: 20px;}
+
+.prix {
+	font-family:'Barlow' sans-serif;
+	color: #1a58a1;
+	font-weight: 500;
+	overflow: hidden;
+	position: absolute;
+	bottom: 150px;
+	right: 250px;
+	font-size: 40px;
+}
+
+.produit {
+	font-family:'Barlow' sans-serif;
+	overflow: hidden;
+	position: absolute;
+	bottom: 150px;
+	left: 68%;
+	font-size: 20px;
+}
+
+/* 2ème navbar */
+.essai2 {
+  height:100px;
+  font-family: 'Barlow', sans-serif;
+  background-color: black;
+  width: 75%;
+}
+
+.textenav {
+  float: left;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  color: white!important;
+  margin:  20px 40px;
+  text-decoration: none!important;
+}
+
+/* Partie listing */
+
+.container-fluid {
+		padding-left: 0;
+    display: inline-block;
+    position: relative;}
+
+
+.container-fluid .présentation {
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    margin: 0 auto;
+    right: 0;
+		left: 19%;
+    top: 28%;
+    color: black;
+    width: 81%;
+		max-width: 100%;}
+
+/* Titre "Véritables stickers...."*/
+
+.présentation {
+	background-color: white;
+	box-shadow: 4px 4px 4px black;
+	width: 70%;
+	padding-left: 25%;
+	height: 120px;
+	padding-top: 20px;
+	font-family:'Barlow' sans-serif;
+  max-width: 100%;
+	}
+
+.titre2 {  /* titre2=h2 */
+
+	font-weight: 900;
+	font-size: 2rem;
+	margin-left: -35%;
+}
+
+.titre4 { /* titre4=h4 */
+	font-weight: 500;
+	font-size: 1.5rem;
+	margin-left: -35%;
+}
+
+/* Placement des cartes */
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+
+.sticker {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.euros {
+  color: white;
+  font-size: 74px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.produit2 {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pls {     /* propriété pour modifer l'overlay */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+	display:none;
+	background:#000;}
+
+.carteslyon li:hover .overlay {
+  opacity: 1;
+	display:block;
+}
+
+
+.carteslyon li {
+position:relative;
+float:right;
+margin:40px 40px;
+}
+
+.carteslyon {
+	position: absolute;
+	top: 40%;
+	right: 12%;
+  display: block;
+	width: 750px;
+}
+
+.findepage1 {
+  float: left;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  color: white!important;
+  margin:  20px 40px;
+}
+
+.findepage2 {
+  float: left;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  color: white!important;
+  margin:  20px 40px;
+}
+
+.findepage3 {
+  float: left;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  color: white!important;
+  margin:  20px 40px;
+}
+
+.findepage7 {
+  bottom: 10%;
+  float: left;
+  font-family: 'Barlow', sans-serif;
+  font-size: 35px;
+  background-color: black;
+  color: white!important;
+  margin:  20px 40px;
+}
