@@ -50,7 +50,7 @@
 
     <!-- Partie listing -->
 
-<div class="container-fluid">
+<div class="container-fluid listingplaque">
       <img src="img/bmw-listing.png" alt="photo bmw">
   <div class="présentation">
       <h2 class="titre2">VERITABLE STICKERS POUR PLAQUE D'IMMATRICULATION</h2>
@@ -181,13 +181,11 @@
     </div>
   </div>
 </div>
-<div>
-<p class="findepage1">1</p>
-<p class="findepage2">2</p>
-<p class="findepage3">3</p>
-<p class="findepage">...</p>
-<p class="findepage7">7</p>
 
-</div>
-
+<div style="clear:both"></div>
+<style>
+.copyright {
+    margin-top: -100px;
+}
+</style>
 <?php include 'footer.php' ?>

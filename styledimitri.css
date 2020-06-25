@@ -189,11 +189,12 @@ a:hover {
     text-align: left;
     margin: 0 auto;
     right: 0;
-		left: 19%;
-    top: 28%;
+    left: 19%;
+    top: 350px;
     color: black;
     width: 81%;
-		max-width: 100%;}
+    max-width: 100%;
+    }
 
 /* Titre "Véritables stickers...."*/
 
@@ -291,11 +292,14 @@ margin:40px 40px;
 }
 
 .carteslyon {
-	position: absolute;
-	top: 40%;
-	right: 12%;
-  display: block;
-	width: 750px;
+	position: relative;
+	/* top: 40%; */
+	/* right: 12%; */
+	/* display: block; */
+	/* width: 750px; */
+	float: right;
+	width: 50%;
+	/* padding-top: 800px; */
 }
 
 .findepage1 {
@@ -333,4 +337,17 @@ margin:40px 40px;
   background-color: black;
   color: white!important;
   margin:  20px 40px;
+}
+
+.container-fluid.listingplaque img {
+    float: left;
+    width: 50%;
+}
+
+img.imglyon {
+    width: 100%!important;
+}
+
+.carteslyon ul {
+    margin-top: 600px;
 }
