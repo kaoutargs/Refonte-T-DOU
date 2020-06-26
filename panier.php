@@ -4,83 +4,11 @@ include('header.php');
 
  <!-- ***********************************navbare partie dexctope **********************************************-->
 
-  <nav class="navbar navbar-expand-lg  navbar-dark fixed-top navs" id="navbare">
-    <img alt="logo"src="image/logo.png" class="px-4 ">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="px-4 collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="px-2 nav-item active">
-          <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
-        </li>
-        <li class=" px-2 nav-item">
-          <a class="nav-link  text-white " href="index.php">Nos collections</a>
-        </li>
-        <li class="px-2  nav-item">
-          <a class="nav-link text-white" href="index.php">Qui sommes-nous</a>
-        </li>
-        <li class="px-2  nav-item">
-          <a class="nav-link text-white" href="contact.php">Nous contacter</a>
-        </li>
-        <li class="px-1 nav-item">
-            <img class="taille" alt="logo"src="image/rech.png" onclick="recherch()"id="imagerech">
-               <form name="formbarre">
-                <input type="text" name="barre" id="barre" placeholder= "recherche..." />
-               </form>
-        </li>
-      </ul>
-      <ul class="px-4  navbar-nav mr-auto d">
-        <li class="px-4 nav-item">
-           <span title="0625314587"> <a href="contact.php" class="stdetaile"> <img class="taille" alt="logo"src="image/telephone.png"></span></a>
-        </li>
-        <li class=" px-4 nav-item">
-          <span title="connecter-vous"><a href="contact.php" class="stdetaile">  <img class="taille" alt="logo"src="image/user.png"></span></a>
-       </li>
-       <li class="px-4 nav-item">
-          <span title="consulter-votre panier"><a href="contact.php" class="stdetaile"><img class="taille" alt="logo"src="image/panier.png"></span></a>
-       </li>
-     </ul>
-    </div>
-  </nav>
 
 
   <!-- *****************************navbare partie mobile***************************************************-->
 
-      <nav class="navbar navbar-expand-lg navbar-light " id="navbarmobile">
-        <img src="image/logonoire.png"class="navbar-brand logomobilep"/>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Nos collections</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Qui sommes-nous</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Nous contacter</a>
-            </li>
-          </ul>
-          <ul class="px-4  navbar-nav mr-auto ">
-            <li class="px-4 nav-item">
-             <a href="contact.php" class="stdetaile"> <img class="taille" alt="logo"src="image/telephone.png"> <p class="px-2 tlf">0625314587</p></a>
-            </li>
-            <li class=" px-4 nav-item">
-             <a href="contact.php" class="stdetaile">  <img class="taille" alt="logo"src="image/user.png"><p class="px-2 tlf">connecter-vous</p></a>
-            </li>
-            <li class="px-4 nav-item">
-             <a href="contact.php" class="stdetaile">  <img class="taille" alt="logo"src="image/panier.png"><p class="px-2 tlf">votre panier</p></a>
-            </li>
-          </ul>
-        </div>
-        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-      </nav>
- </header>
+
 
  <div class="container-fluid">
    <div class="row margtitre">
@@ -128,7 +56,7 @@ include('header.php');
                       <div class="row">
                         <div class="col-lg-3 ">
                           <div class="dess">
-                            <img src="image/imm1.png" class="pre1panier">
+                            <img src="img/imm1.png" class="pre1panier">
  <!-- ************************************* image pour la pertie mobile d'overlay **************************-->
                              <img src="image/matr1.png" class="pre1mobile">
  <!-- ***************************************fin image mobile *********************************************-->

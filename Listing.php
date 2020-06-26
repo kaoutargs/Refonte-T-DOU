@@ -168,7 +168,6 @@
           </div>
         </li>
 
-
         <li>
           <img src="img/carte-lyon.png" alt="carte de lyon" class="imglyon">
           <div class="overlay pls">

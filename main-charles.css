@@ -2,12 +2,12 @@ body{margin: auto; padding: 0;}
 /*HEADER*/
 .accueil-logo2{display: none;}
 .accueil-loupe{position: relative; top: 35px;}
-.accueil-search{font-family: Barlow Regular; font-size: 18px; position: relative; left: 70px; top: -7px;}
+.accueil-search{font-family: 'Barlow' Regular; font-size: 18px; position: relative; left: 70px; top: -7px;}
 .accueil-recherche{width: 300px; border-style: none;}
 .accueil-panier2{display: none;}
 .accueil-burger{display: none;}
-.accueil-slogan1{font-family: Barlow Black; font-size: 60px; color: #000000; position: absolute; top: 30px;}
-.accueil-slogan2{font-family: Barlow Medium; font-size: 48px; color: #000000;position: absolute; top: 110px;}
+.accueil-slogan1{font-family: 'Barlow' Black; font-size: 60px; color: #000000; position: absolute; top: 30px;}
+.accueil-slogan2{font-family: 'Barlow' Medium; font-size: 48px; color: #000000;position: absolute; top: 110px;}
 .mobile-slogan1{display: none;}
 .mobile-slogan2{display: none;}
 .accueil-slo{position: relative; top: 80px; left: 200px; background-color: #ffffff; width: 46rem; height: 15rem; z-index: 3;}
@@ -69,7 +69,7 @@ body{margin: auto; padding: 0;}
   .accueil-collection:hover{color: #ffffff;  text-decoration: none;}
   .accueil-collection2:hover{color: #ffffff;  text-decoration: none;}
   .accueil-collection3:hover{color: #ffffff;  text-decoration: none;}
-  .region{color: #ffffff; font-family: Barlow Meium; font-size: 48px; position: relative; bottom: 11rem; left: 6.2rem;}
+  .region{color: #ffffff; font-family: Barlow Medium; font-size: 48px; position: relative; bottom: 11rem; left: 6.2rem;}
   .rectangle2{width: 960px; height: 606px; background-color: #9fb9d8; float: right; z-index: 2; position: relative; top: -500px; font-family: Barlow Black; font-size: 60px; color: #000000;}
   .accueil-collection{color: #363636; position: relative; left: 40px; top: 20px;}
   .accueil-collection2{color: #363636; position: relative; top: -85px; left: 395px;}
@@ -106,7 +106,7 @@ body{margin: auto; padding: 0;}
     width: 60%;
     opacity: 0;
     transition: .5s ease;
-    background-image: url(img/hover.png);
+    background-image: url("img/hover.png");
     margin-top: 5rem;
     margin-left: 3rem;
 
@@ -179,7 +179,7 @@ body{margin: auto; padding: 0;}
     width: 51%;
     opacity: 0;
     transition: .5s ease;
-    background-image: url(img/hover.png);
+    background-image: url("img/hover.png");
     margin-top: 5rem;
     margin-left: -6rem;
 
@@ -204,7 +204,7 @@ body{margin: auto; padding: 0;}
 
   .text5{
     color: white;
-    font-family: Barlow Black;
+    font-family: 'Barlow' Black;
     font-size: 133px;
     position: absolute;
     top: 50%;
@@ -218,7 +218,7 @@ body{margin: auto; padding: 0;}
 
   .text6 {
     color: white;
-    font-family: Barlow Medium;
+    font-family: 'Barlow' Medium;
     font-size: 25px;
     position: absolute;
     top: 80%;
@@ -252,7 +252,7 @@ body{margin: auto; padding: 0;}
     width: 52%;
     opacity: 0;
     transition: .5s ease;
-    background-image: url(img/hover.png);
+    background-image: url("img/hover.png");
     position: absolute; top: -31.5rem;
     margin-left: 41.3rem;
 
@@ -264,7 +264,7 @@ body{margin: auto; padding: 0;}
 
   .text7 {
     color: white;
-    font-family: Barlow Medium;
+    font-family: 'Barlow' Medium;
     font-size: 24px;
     position: absolute;
     top: 20%;
@@ -305,7 +305,7 @@ body{margin: auto; padding: 0;}
 
     /*PARTIE NOUVEAUTES*/
 .rectangle3{margin-top: 500px; height: 150px; background-color: #000000;}
-.atitre{font-family: Barlow Black; font-size: 60px; color: #ffffff; position: relative; left: 35rem; top: 1.5rem;z-index: 2;}
+.atitre{font-family: 'Barlow' Black; font-size: 60px; color: #ffffff; position: relative; left: 35rem; top: 1.5rem;z-index: 2;}
 .logo2{position: relative; bottom: 6.5rem; height: 150px;z-index: 1; position: relative; left: 50rem; width: 48rem;}
 
 .container4 {
@@ -330,7 +330,7 @@ body{margin: auto; padding: 0;}
   width: 80%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(img/hover.png);
+  background-image: url("img/hover.png");
   position: absolute; top: -17rem;
   margin-left: -10px;
 }
@@ -401,7 +401,7 @@ body{margin: auto; padding: 0;}
   width: 80%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(img/hover.png);
+  background-image: url("img/hover.png");
   position: absolute; top: -17rem;
   margin-left: -15px;
 }
@@ -472,7 +472,7 @@ body{margin: auto; padding: 0;}
   width: 80%;
   opacity: 0;
   transition: .5s ease;
-  background-image: url(img/hover.png);
+  background-image: url("img/hover.png");
   position: absolute; top: -48rem;
   margin-left: 35rem;
 }
@@ -977,12 +977,12 @@ float:right;
 .accueil-recherche{display: none;}
 .atel{display: none;}
 .auser{display: none;}
-.accueil-slogan1{display: block; font-family: Barlow Black; font-size: 60px; color: #000000;}
-.accueil-slogan2{display: block; font-family: Barlow Medium; font-size: 48px; color: #000000;}
+.accueil-slogan1{display: block; font-family: 'Barlow' Black; font-size: 60px; color: #000000;}
+.accueil-slogan2{display: block; font-family: 'Barlow' Medium; font-size: 48px; color: #000000;}
 .accueil-slo{display: none;}
-.accueil-btn2{display: block;font-family: Barlow Bold; font-size: 36px; color: #1a58a1; position: relative; bottom: 9rem; left: 3rem; background-color: #ffffff;}
+.accueil-btn2{display: block;font-family: 'Barlow' Bold; font-size: 36px; color: #1a58a1; position: relative; bottom: 9rem; left: 3rem; background-color: #ffffff;}
 .rectangle-noir{display: block; height: 130px; width: 320px; background-color: #000000; position: relative; bottom: 10rem;}
 .collections{display: none;}
 .rectangle2{display: none;}
-.mobile-collection{font-family: Barlow Black; font-size: 30px; color: #ffffff; position: relative; top: 1rem;}
-.mobile-region{font-family: Barlow Medium; font-size: 24px; color: #ffffff;}
+.mobile-collection{font-family: 'Barlow' Black; font-size: 30px; color: #ffffff; position: relative; top: 1rem;}
+.mobile-region{font-family: 'Barlow' Medium; font-size: 24px; color: #ffffff;}

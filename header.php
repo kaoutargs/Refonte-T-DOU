@@ -27,11 +27,11 @@
     </button>
     <div class="px-4 collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
-        <li class="px-2 nav-item active">
-          <a class="nav-link" href="#index.php">Accueil <span class="sr-only">(current)</span></a>
+        <li class="px-2 nav-item">
+          <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
         </li>
         <li class=" px-2 nav-item">
-          <a class="nav-link  text-white " href="Listing.php">Nos collections</a>
+          <a class="nav-link  text-white" href="Listing.php">Nos collections</a>
         </li>
         <li class="px-2  nav-item">
           <a class="nav-link text-white" href="apropos.php">Qui sommes-nous</a>
