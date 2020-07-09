@@ -1,11 +1,5 @@
 body{margin: auto; padding: 0;}
 /*HEADER*/
-.accueil-logo2{display: none;}
-.accueil-loupe{position: relative; top: 35px;}
-.accueil-search{font-family: 'Barlow' Regular; font-size: 18px; position: relative; left: 70px; top: -7px;}
-.accueil-recherche{width: 300px; border-style: none;}
-.accueil-panier2{display: none;}
-.accueil-burger{display: none;}
 .accueil-slogan1{font-family: 'Barlow' Black; font-size: 60px; color: #000000; position: absolute; top: 30px;}
 .accueil-slogan2{font-family: 'Barlow' Medium; font-size: 48px; color: #000000;position: absolute; top: 110px;}
 .mobile-slogan1{display: none;}
@@ -22,15 +16,6 @@ body{margin: auto; padding: 0;}
 .contact{position: relative; right: 378px; font-family: Barlow Regular; font-size: 30px; color: #ffffff;}
 
     /*NAVBAR*/
-.accueil-menu{font-family: Barlow Regular; font-size: 30px;position: relative; top: -250px;}
-.accueil-liste{position: relative; left: 200px; top: 40px;}
-.accueil-liste2{position: relative; left: 300px;  top: 40px;}
-.accueil-liste3{position: relative; left: 400px;  top: 40px;}
-.accueil-liste4{position: relative; left: 500px;  top: 40px;}
-.accueil-liste:hover{color: #ffffff; border-bottom: 2px solid #1a58a1; text-decoration: none;}
-.accueil-liste2:hover{color: #ffffff; border-bottom: 2px solid #1a58a1; text-decoration: none;}
-.accueil-liste3:hover{color: #ffffff; border-bottom: 2px solid #1a58a1; text-decoration: none;}
-.accueil-liste4:hover{color: #ffffff; border-bottom: 2px solid #1a58a1; text-decoration: none;}
 
   ul {
     list-style-type: none;

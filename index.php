@@ -22,7 +22,7 @@
                    <a class="accueil-panier2" href="#"><img class="apanier2" src="img/panier-mobile.png" alt="panier"></a>
                    <a class="accueil-burger" href="#"><img class="accueil-burger2" src="img/burger.png" alt="panier"></a>
                  </div>
-                   </nav>
+
                   </a>
                 </div>
               </div>
@@ -47,13 +47,6 @@
                </div>
              </div>
            </div>
-                      <!--navbar-->
-           <ul class="accueil-menu container-fluid">
-             <li class="accueil-menu2"><a class="accueil-liste" href="#Accueil">Accueil</a></li>
-             <li class="accueil-menu2"><a class="accueil-liste2" href="#Collections">Nos collections</a></li>
-             <li class="accueil-menu2"><a class="accueil-liste3" href="#Qui">Qui sommes nous</a></li>
-             <li class="accueil-menu2"><a class="accueil-liste4" href="#Contact">Nous contacter</a></li>
-           </ul>
 
 
 
