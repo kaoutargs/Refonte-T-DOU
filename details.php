@@ -1,49 +1,7 @@
 <?php
 include('header.php');
  ?>
-
-     <nav class="navbar navbar-expand-lg  navbar-dark fixed-top navs" id="navbare">
-  <img alt="logo"src="image/logo.png" class="px-4 ">
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="px-4 collapse navbar-collapse" id="navbarText">
-         <ul class="navbar-nav mr-auto">
-           <li class="px-2 nav-item active">
-             <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
-           </li>
-           <li class=" px-2 nav-item">
-             <a class="nav-link  text-white " href="index.php">Nos collections</a>
-           </li>
-           <li class="px-2  nav-item">
-             <a class="nav-link text-white" href="index.php">Qui sommes-nous</a>
-           </li>
-           <li class="px-2  nav-item">
-             <a class="nav-link text-white" href="contact.php">Nous contacter</a>
-           </li>
-           <li class="px-1 nav-item">
-               <img class="taille" alt="logo"src="image/rech.png" onclick="recherch()"id="imagerech">
-
-  <form name="formbarre">
-   <input type="text" name="barre" id="barre" placeholder= "recherche..." />
-
-  </form>
-           </li>
-         </ul>
-        <ul class="px-4  navbar-nav mr-auto d">
-          <li class="px-4 nav-item">
-             <span title="0625314587"> <a href="contact.php" class="stdetaile"> <img class="taille" alt="logo"src="image/telephone.png"></span></a>
-          </li>
-          <li class=" px-4 nav-item">
-            <span title="connecter-vous"><a href="contact.php" class="stdetaile">  <img class="taille" alt="logo"src="image/user.png"></span></a>
-         </li>
-         <li class="px-4 nav-item">
-          <span title="consulter-votre panier"><a href="panier.php" class="stdetaile"><img class="taille" alt="logo"src="image/panier.png"></span></a>
-         </li>
-        </ul>
-       </div>
-     </nav>
-
+ <link rel="stylesheet" href="stylerajae.css">
 
      <nav class="navbar navbar-expand-lg navbar-light " id="navbarmobile">
        <img src="image/logonoire.png"class="navbar-brand logomobilep"/>
@@ -183,9 +141,6 @@ la région Bourgogne.<br>
 </div>
 </div>
 </div>
-
-
-
 
 <div class="container hau1">
   <div class=" row">
@@ -401,3 +356,105 @@ la région Bourgogne.<br>
  <?php
  include('footer.php');
   ?>
+  <script language="javascript">
+  var valeur=1;
+  function modifier(increment) {
+
+  valeur+=increment;
+  document.getElementById('text').value=valeur;
+  document.getElementById('text').value=valeur;
+
+
+  }
+  function somme(){
+  var nbr1, nbr2, sum;
+  var prix=6;
+  nbr1 = Number(document.getElementById('totale').value);
+  nbr2 = Number(document.getElementById('nbr').value);
+  sum = (prix * nbr2);
+  document.getElementById('totale').innerHTML = sum;
+
+  }
+  </script>
+  <script language="javascript">
+
+  function recherch() {
+  document.getElementById("imagerech").style.display = "none";
+  document.getElementById("barre").style.display = "block";
+  var span = document.getElementById('navbare') // L'élément du DOM
+  span.style.fontSize = '15px' // Font-size à 15px
+
+
+  }
+
+  </script>
+  <script language="javascript">
+
+  function ouvrirFermerSpoiler() {
+  document.getElementById("panier").style.display = "block";
+  document.getElementById("textpanier").style.display = "none";
+
+  }
+
+
+  </script>
+  <script language="javascript">
+
+
+  function suivant() {
+  var str = document.getElementById("numero2").innerHTML;
+  var res = str.replace(/22/gi, "21");
+  document.getElementById("numero2").innerHTML = res;
+
+  var str1 = document.getElementById("nomdepa3").innerHTML;
+  var res1 = str1.replace(/Les côtes d'armor/gi, "la Côte-d’Or");
+  document.getElementById("nomdepa3").innerHTML = res1;
+
+  var str2 = document.getElementById("departementttslider").innerHTML;
+  var res2 = str2.replace(/21/gi, "20");
+  document.getElementById("departementttslider").innerHTML = res2;
+
+  var str3 = document.getElementById("nomdepa2").innerHTML;
+  var res3 = str3.replace(/la Côte-d’Or/gi, "La Seine et Marne");
+  document.getElementById("nomdepa2").innerHTML = res3;
+
+  var str4 = document.getElementById("numero1").innerHTML;
+  var res4 = str4.replace(/20/gi, "19");
+  document.getElementById("numero1").innerHTML = res4;
+
+  var str5 = document.getElementById("nomdepa1").innerHTML;
+  var res5 = str5.replace(/La Seine et Marne/gi, "Corrèze");
+  document.getElementById("nomdepa1").innerHTML = res5;
+  }
+  function precedent() {
+  var str = document.getElementById("numero2").innerHTML;
+  var res = str.replace(/21/gi, "22");
+  document.getElementById("numero2").innerHTML = res;
+
+  var str1 = document.getElementById("nomdepa3").innerHTML;
+  var res1 = str1.replace(/la Côte-d’Or/gi, "Côtes-d'Armor");
+  document.getElementById("nomdepa3").innerHTML = res1;
+
+  var str2 = document.getElementById("departementttslider").innerHTML;
+  var res2 = str2.replace(/20/gi, "21");
+  document.getElementById("departementttslider").innerHTML = res2;
+
+  var str3 = document.getElementById("nomdepa2").innerHTML;
+  var res3 = str3.replace(/La Seine et Marne/gi, "la Côte-d’Or");
+  document.getElementById("nomdepa2").innerHTML = res3;
+
+  var str4 = document.getElementById("numero1").innerHTML;
+  var res4 = str4.replace(/19/gi, "20");
+  document.getElementById("numero1").innerHTML = res4;
+
+  var str5 = document.getElementById("nomdepa1").innerHTML;
+  var res5 = str5.replace(/Corrèze/gi, "La Seine et Marne");
+  document.getElementById("nomdepa1").innerHTML = res5;
+  }
+
+  </script>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>

@@ -1,16 +1,15 @@
 .navs{height:100px;font-family: 'Barlow', sans-serif;font-weight: 100;font-size: 19px;background-color: black!important;}
-a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .taille{width:29px;height: 29px;}
 #barre{display: none;width: 8rem;height: 2rem;background-color: black;color: white;border-top: none;border-left: none;border-right: none;}
 .stdetaile{text-decoration:none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
 .stdetaile:hover{text-decoration:none;border: none;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
-.soulignement:hover{text-decoration:none;border: none;color: white;padding_bottom: 20rem;margin-top: 20rem;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
+.soulignement:hover{text-decoration:none;border: none;color: white;padding-bottom: 20rem;margin-top: 20rem;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .hau1{margin-top: 10rem;}
 .afpn{display: none;}
 .g{margin-top: 30px;}
 .g1{margin-top: 9rem;line-height:10px;}
 .d{margin-left: 100px;}
-.image1{position: relative;}
+.img1{position: relative;}
 .ab{position: absolute;left: 11rem;bottom:7rem;}
 .ab1{position: absolute;left: 7rem;bottom:5rem;}
 #panier{width: 30px;height: 30px;margin-left: 7rem;display: none;border: none;}
@@ -27,8 +26,8 @@ a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .gr{font-family: 'Barlow', sans-serif;font-weight: 500;font-size:20px;}
 .ditt{display: inline-block;font-family: 'Barlow', sans-serif;font-weight: 400;  font-size:30px;  margin-top: 15px;margin-left: -9rem;position: absolute;}
 .dit{display: inline-block;font-family: 'Barlow', sans-serif;font-weight: 400;  font-size:30px;  margin-top: 10px;}
-.bt{  background-color: black;  width: 20px;  height: 20px;  background-image: url(image/in1.png);  display: inline-block;}
-.btt{background-color: black;width: 20px;height: 20px;background-image: url(image/in1.png);margin-top:-20px;}
+.bt{  background-color: black;  width: 20px;  height: 20px;  background-image: url(img/in1.png);  display: inline-block;}
+.btt{background-color: black;width: 20px;height: 20px;background-image: url(img/in1.png);margin-top:-20px;}
 .de{display: inline-block;font-family: 'Barlow', sans-serif;font-weight:700;font-size:36px;margin-left: 5rem;margin-top: 20px;color: black;}
 .dee{font-family: 'Barlow', sans-serif;font-weight: 100;font-size:20px;margin-left: 8.5rem;color: black;}
 .prix{background-color:#FFFFFF;border:none ;text-align:center;font-size:61px;font-family: 'Barlow', sans-serif;font-weight: bold;color: #1a58a1;}
@@ -45,7 +44,7 @@ a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .vous::after{content: "";width: 10rem;height: 8px;position: absolute;border-bottom: 4px solid #1a58a1;margin-left: -22.5rem;margin-top: 4rem;}
 .cadregris{width: 52.3rem;height: 25rem;z-index: 2;background-color: #9fb9d8;position: relative;margin-left: 32rem;margin-top: 5rem;position: relative;}
 .pre1{position: relative;width: 10rem;height: 22rem;margin-top: 10rem;margin-left: 4rem;border-radius: 10px;border: 10px solid #ffffff;}
-.overlay {position: absolute;top: 10rem;left: 4rem;height: 22rem;width: 100%;opacity: 0;transition: .5s ease;background-image: url(image/backgroundop.jpg);}
+.overlay {position: absolute;top: 10rem;left: 4rem;height: 22rem;width: 100%;opacity: 0;transition: .5s ease;background-image: url(img/backgroundop.jpg);}
 .des{position: relative;width: 10rem;height: 20rem;}
 .des:hover .overlay {opacity: 1;}
 .text {position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 30px;left: 12%;text-align: center;margin-top: 5%;}
@@ -54,13 +53,15 @@ a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .voir{color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
 .voir::after{content: "";width: 2.3rem;height: 8px;position: absolute;border-bottom: 2px solid #1a58a1;margin-left: -4.5rem;margin-top: 1.3rem;}
 .prixsticker::after{content: "";width: 8rem;height: 8px;position: absolute;border-bottom: 3px solid black;margin-left: -29.5rem;margin-top: 4.2rem;
+.cacherelemntpanier{display: block;}
+
 }
 /**************************************page panier***********************************************/
 .navbarmobile{display: none;}
 .hedermobile{display: none;}
-.imagefindetaille{display: none;}
+.imgfindetaille{display: none;}
 .textedetaillemobile{display: none;}
-.imagedemobile{display: none;}
+.imgdemobile{display: none;}
 
 
 /** plus **/
@@ -87,11 +88,11 @@ a{font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 4rem!im
 .hedermobile{  display: block;}
 .noire{display:  none;}
 .cadregris{  display: none;}
-.imagefindetaille{display: block;}
+.imgfindetaille{display: block;}
 .stickersmobiledetaille{  color: black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 2rem;margin-top: 0rem;margin-left: 12rem;text-align: center;}
-#imagestikcerdetaillemobile{ margin-left: 15rem;}
-#imagecontroleapremobile{margin-top: 44rem;width: 30%;height: 10%;}
-#imagecontroleapremobileapr{margin-top: 43.7rem;width: 30%;height: 10%;margin-left: 6.2rem;}
+#imgstikcerdetaillemobile{ margin-left: 15rem;}
+#imgcontroleapremobile{margin-top: 44rem;width: 30%;height: 10%;}
+#imgcontroleapremobileapr{margin-top: 43.7rem;width: 30%;height: 10%;margin-left: 6.2rem;}
 #tailledepamobile2{width: 30rem;margin-left:7rem;position: absolute;margin-top: -1rem;}
 #departement21mobile{color: black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 2rem;}
 #tailledepamobile{width: 30rem;margin-left:31rem;position: absolute;margin-top: -1rem;}
@@ -124,24 +125,23 @@ a{font-family: 'Barlow', sans-serif;font-weight:900!important;font-size: 4rem!im
 .vmmobile{width: 80rem;}
 .abmobile{text-align: center;margin-left:0rem;margin-top: 6rem;font-family: 'Barlow', sans-serif;font-weight:500!important;font-size:5rem;color: black;}
 .ab1mobile{text-align: center;margin-left:0rem;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight:500!important;font-size:5rem;color: black}
-.imagedemobile{display: block;}
-.imageimm1mobile{display: none;}
+.imgdemobile{display: block;}
+.imgimm1mobile{display: none;}
 .fmobile{margin-left: 15rem;width: 90%;height: 90%;}
 .fmobilee{margin-left: 30rem;width: 30%;height:30%;margin-top: 4rem;}
 }
-/** ****************************css partie navbare desctop *******************************************/
+/** ****************************css partie navbar desktop *******************************************/
 #navbarmobile{display: none;}
 .navs{height:100px;font-family: 'Barlow', sans-serif;font-size: 19px;background-color: black!important;}
 .taille{width:29px;height: 29px;}
 #barre{display: none;width: 8rem;height: 2rem;background-color: black;color: white;border-top: none;border-left: none;border-right: none;}
 .d{margin-left: 100px;}
 .hau1{margin-top: 10rem;}
-a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 /**********************titre principale**********************************/
 .titrerecapitulatif{text-align: center;font-family: 'Barlow', sans-serif;font-weight: 900;font-size: 40px;margin-top: 3rem;}
 .margtitre{margin-top: 5rem;}
 /** *************************menu de recapitilatif connexion de panier*******************************/
-.col1 {height: 5.9rem;position: absolute;background-color: black;}
+.col1 {height: 5.9rem;background-color: black;}
 #menupanier1{display: none;}
 .position1{text-align: center;margin-top: 2rem;font-family: 'Barlow', sans-serif;font-weight: 400;font-size: 20px;color: black;margin-left: -5rem;}
 .navbar2{width: 100%;height: 6rem; border:2px solid  black;padding: 0; margin-top: 6rem;position: relative;}
@@ -174,11 +174,11 @@ a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .textsticker{position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 30px;left: 12%;text-align: center;margin-left: 2.5rem;margin-top: 5%;}
 .texttp {position: absolute;color: white;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 70px;left: 34%;top: 22%;text-align: center;}
 .textttp {position: absolute;top: 64%;left: 27%;}
-.overlayp {position: absolute;top: 10rem;left: 4rem;height: 17rem;width: 15rem;opacity: 0;transition: .5s ease;background-image: url(image/backgroundop.jpg);}
+.overlayp {position: absolute;top: 10rem;left: 4rem;height: 17rem;width: 15rem;opacity: 0;transition: .5s ease;background-image: url(img/backgroundop.jpg);}
 .dess:hover .overlayp {opacity: 1;}
 .voir{color: white;font-family: 'Barlow', sans-serif;font-weight:400;font-size: 18px;text-align: center;}
 .voir::after{content: "";width: 2.3rem;height: 8px;position: absolute;border-bottom: 2px solid #1a58a1;margin-left: -4.5rem;margin-top: 1.3rem;}
-/************************text devant image overlay********************************/
+/************************text devant img overlay********************************/
 .autocollant{color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 18px;margin-top: 15rem;}
 .reference{color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 16px;}
 .gr{font-family: 'Barlow', sans-serif;font-weight: 500;font-size:20px;}
@@ -194,7 +194,7 @@ a:hover {border-bottom: 1px solid #1a58a1;color: #1a58a1!important;}
 .btnsupp{  width: 18px;  height: 18px;  margin-top: 6.8rem;  margin-left: -2rem;}
 .tapanier{position: absolute;width:1.8rem;height: 1.5rem;}
 .taapanier{position: absolute;padding-top: 2px;width:1.8rem;height:1.5rem;}
-/** **************************image paiment *********************************/
+/** **************************img paiment *********************************/
 .threed{margin-top: 9rem;margin-left: 7rem;display: inline;}
 .visa{margin-top:9rem;margin-left:1rem;}
 .paypal{  margin-top: 9rem;  margin-left: 1rem;}
@@ -334,7 +334,7 @@ padding-top: 5px;
 .referencemobile{ position: absolute;color:black;font-family: 'Barlow', sans-serif;font-weight:500;font-size: 50px;margin-top: 64rem;padding-top: 2rem;  margin-left: 17rem;}
 .vermobile{position: relative;}
   .pre1panier{position: relative;width: 15rem;height: 17rem;margin-top: 30rem;margin-left: 4rem;border-radius: 10px;border: 10px solid #ffffff;}
-/** partie texte devant image **/
+/** partie texte devant img **/
 
 .gr{  font-family: 'Barlow', sans-serif;font-weight: 500;font-size:60px;}
   .autocollanteresine{display: block;color:black;font-family: 'Barlow', sans-serif;font-weight:900;font-size: 4rem;margin-top: 0rem;text-align: center;}
@@ -361,10 +361,10 @@ padding-top: 5px;
 .tpaniermobile::after{content: "";width: 18rem;height: 8px;position: absolute;border-bottom: 8px solid black;margin-left: -20rem;margin-top: 5rem;}
   /** btn supp mobile **/
   .btnsuppmobile{  display: block;width: 6rem;height: 6rem;margin-top: 3rem;margin-left: 45rem;}
-/** image de sticker **/
+/** img de sticker **/
 .pre1mobile{position: absolute;display: block;width: 35rem;height: 75rem;margin-top: 32rem;margin-left: 12rem;}
-/** image commander pou payer **/
-.imageachat{position: relative;}
+/** img commander pou payer **/
+.imgachat{position: relative;}
 .visa{display: none;}
 .threed{position: absolute;margin-top: 55rem;margin-left:30rem;width: 15rem;}
 .visamobile{display: block;position: absolute;margin-top: 59rem;margin-left: 15rem;width: 15rem;}

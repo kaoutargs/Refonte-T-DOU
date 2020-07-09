@@ -41,8 +41,8 @@
                   <img class="accueil-voiture2" src="img/voiture-mobile.png" alt="voiture">
                 </div>
                 <div class="accueil-voiture2">
-        <a href="https://www.sticker-autocollant-plaque.com/15-collection-1" target="_blank"><button type="button" class="accueil-btn btn-outline-primary">Voir nos produits</button></a>
-        <a href="https://www.sticker-autocollant-plaque.com/15-collection-1" target="_blank"><button type="button" class="accueil-btn2 btn-outline-primary">Voir nos produits</button></a>
+        <a href="details.php" target="_blank"><button type="button" class="accueil-btn btn-outline-primary">Voir nos produits</button></a>
+        <a href="details.php" target="_blank"><button type="button" class="accueil-btn2 btn-outline-primary">Voir nos produits</button></a>
                  </div>
                </div>
              </div>
@@ -64,7 +64,7 @@
                <p class="region">Le sticker région<p>
                <img class="accueil-car2" src="img/voiture2.jpg">
                <img class="resine1" src="img/resine.png" alt="sticker resine">
-               <a href="https://www.sticker-autocollant-plaque.com/15-collection-1" target="_blank"><button type="button" class="accueil-bouton btn-outline-primary">Voir nos produits</button></a>
+               <a href="details.php" target="_blank"><button type="button" class="accueil-bouton btn-outline-primary">Voir nos produits</button></a>
                <a href="#carousel"><img class="fleche1" src="img/fleche1.png"></a>
                <a href="#carousel"><img class="fleche2" src="img/fleche2.png"></a>
              </div>

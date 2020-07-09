@@ -1,19 +1,13 @@
 <?php
 include('header.php');
  ?>
-
- <!-- ***********************************navbare partie dexctope **********************************************-->
-
-
-
-  <!-- *****************************navbare partie mobile***************************************************-->
-
+ <link rel="stylesheet" href="stylerajae.css">
 
 
  <div class="container-fluid">
    <div class="row margtitre">
      <div class="col-lg-12">
-       <h1 class="titrerecapitulatif cacherpanier2">RECAPITULATIF DE LA COMMANDE</h1>
+       <h1 class="titrerecapitulatif cacherpanier2">RÉCAPITULATIF DE LA COMMANDE</h1>
        <!-- ***********************tire recaputilatife pour partie mobile*************************************************-->
        <h1 class="titrerecapitulatife bla">RECAPITULATIF DE</h1><br>
        <h1 class="titrerecapitulatife bla">LA COMMANDE</h1>
@@ -22,7 +16,7 @@ include('header.php');
    </div>
  </div>
  <!-- ********************************************* menu de recapitilatif connexion de panier****************************-->
- <div class="container-fluid navbar2 ">
+ <div class="container-fluid navbar2">
            <div class="row">
              <div class="col-lg-3 col-sm-12 col1">
                <h3 class="recapitulatif">  Récapitulatif  <span class="flech py-4">></span><h3>
@@ -51,15 +45,16 @@ include('header.php');
              </div>
            </div>
  </div>
- <!-- ************************************ partie de l-image et overlay **************************************-->
+ <!-- ************************************ partie de l-img et overlay **************************************-->
             <div class="container-fluid traitpanierfn ">
                       <div class="row">
                         <div class="col-lg-3 ">
                           <div class="dess">
+
                             <img src="img/imm1.png" class="pre1panier">
- <!-- ************************************* image pour la pertie mobile d'overlay **************************-->
-                             <img src="image/matr1.png" class="pre1mobile">
- <!-- ***************************************fin image mobile *********************************************-->
+ <!-- ************************************* img pour la pertie mobile d'overlay **************************-->
+                             <img src="img/matr1.png" class="pre1mobile">
+ <!-- ***************************************fin img mobile *********************************************-->
                            <div class="overlayp">
                             <div class="py-4 textsticker">STICKER</div><br>
                             <div class="py-4 texttp">6€</div><br>
@@ -72,7 +67,7 @@ include('header.php');
                           <h3 class="autocollant">AUTOCOLLANT PLAQUE RESINE 21</h3>
                           <!-- *************************************** texte just pour partie mobile *******************-->
                           <h3 class="autocollanteresine">AUTOCOLLANT PLAQUE </h3><h3 class="autocollanteresine">RESINE 21</h3>
-                          <img class="btnsuppmobile" alt="cntrl2"src="image/supp.png" onClick="supprimer">
+                          <img class="btnsuppmobile" alt="cntrl2"src="img/supp.png" onClick="supprimer">
                           <!-- *************************************** fin parti emobile ***************************-->
                           <h6 class="reference referencemobile">Référence Bleu :<span class="gr"> D21B1<span></h6>
                           <p class="reference  ">6,00 €</p>
@@ -96,15 +91,15 @@ include('header.php');
                           <input class="dsss afpn" type="text" id="text" value="1" size="3" readonly="true" style="background-color:#FFFFFF; border:#FFFFFF none 0px; text-align:center; font-size:30px;margin-left: -50px;margin-top:2rem;position:absolute;">
                             <input class="dsss bfpn" type="text" id="text" value="1" size="3" readonly="true" style="background-color:#FFFFFF; border:#FFFFFF none 0px; text-align:center; font-size:30px;margin-left: -50px;margin-top:5rem;position:absolute;">
                        <div class="tpanierr tpaniermobile ">
-                              <img  class="tapanier tapaniermobile"  alt="cntrl1"src="image/fl1.jpg"  id="nbr" onClick="modifier(1);somme();"><br>
-                              <img class="taapanier taapaniermobile" alt="cntrl2"src="image/fl2.jpg" onClick="modifier(-1)">
+                              <img  class="tapanier tapaniermobile"  alt="cntrl1"src="img/fl1.jpg"  id="nbr" onClick="modifier(1);somme();"><br>
+                              <img class="taapanier taapaniermobile" alt="cntrl2"src="img/fl2.jpg" onClick="modifier(-1)">
                         </div>
                         </div>
                         <div class="col-lg-5">
                             <input type="text" class="prixpanier prixpaniermobile" id="totale" value="6,00€" size="3" readonly="true"  >
                         </div>
                         <div class="col-lg-2">
-                              <img class="btnsupp" alt="cntrl2"src="image/supp.png" onClick="supprimer">
+                              <img class="btnsupp" alt="cntrl2"src="img/supp.png" onClick="supprimer">
                         </div>
                       </div>
                      </div>
@@ -112,11 +107,11 @@ include('header.php');
              </div>
              <div class="container-fluid  ">
                        <div class="row">
-                         <div class="col-lg-6 imageachat">
-                            <img class="visamobile" alt="cntrl2"src="image/visa.png" onClick="commander">
-                            <img class="threed" alt="cntrl2"src="image/3d.png" onClick="commander">
-                            <img class="visa" alt="cntrl2"src="image/visa.png" onClick="commander">
-                            <img class="paypal" alt="cntrl2"src="image/paypal.png" onClick="commander">
+                         <div class="col-lg-6 imgachat">
+                            <img class="visamobile" alt="cntrl2"src="img/visa.png" onClick="commander">
+                            <img class="threed" alt="cntrl2"src="img/3d.png" onClick="commander">
+                            <img class="visa" alt="cntrl2"src="img/visa.png" onClick="commander">
+                            <img class="paypal" alt="cntrl2"src="img/paypal.png" onClick="commander">
                           </div>
                          <div class="col-lg-6 totalesimobile">
                            <h3 class="totalepanierfn totalepanierfnmobile">Total: <span class="prixpanierfn">6,00€</span></h3>
